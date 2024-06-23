@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
-import { FloatingNav } from "@/components/ui/FloatingNavBar";
+import { FloatingNav } from "@/components/ui/floating-navbar";
 import { IconBriefcase, IconHome, IconMail } from "@tabler/icons-react";
+import Grid from "@/components/Grid";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
           ]}
         />
         <Hero />
+        <Grid />
       </div>
     </div>
   );
